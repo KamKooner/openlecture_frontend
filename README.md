@@ -10,10 +10,9 @@ An open source project aiming to integrate 3 things...
 
 # Atmospheric customization 
   Public/Private music & image collections for a personalizated experience
-  ![download (1)](https://github.com/KamKooner/openlecture_frontend/assets/85206896/4f7cfba0-b1b1-4b0e-9c4b-6dabad2bed11)
+  ![images](https://github.com/KamKooner/openlecture_frontend/assets/85206896/ce89b834-ca53-4390-b56e-9a2c0e4e74e4)
 
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.2.6.
 
 ## Development server
 
