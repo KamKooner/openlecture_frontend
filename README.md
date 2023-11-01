@@ -2,10 +2,16 @@
 An open source project aiming to integrate 3 things...
 # Obsidian style notetaking:
   A style of notetaking that uses hyperlink traversal, visualized through a network of nodes in a graph
+  ![0_M7fO7icOVuAjUhQ2](https://github.com/KamKooner/openlecture_frontend/assets/85206896/2828352b-46e3-425c-9767-c40c4a2328f6)
+
 # Online public & private studying
   Messaging/Calls platform for studying
+  ![3745484](https://github.com/KamKooner/openlecture_frontend/assets/85206896/d363d0d9-4b84-4c77-97b7-b1309ed100b8)
+
 # Atmospheric customization 
   Public/Private music & image collections for a personalizated experience
+  ![download (1)](https://github.com/KamKooner/openlecture_frontend/assets/85206896/4f7cfba0-b1b1-4b0e-9c4b-6dabad2bed11)
+
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.2.6.
 
