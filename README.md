@@ -10,6 +10,7 @@ An open source project aiming to integrate 3 things...
 
 # Atmospheric customization 
   Public/Private music & image collections for a personalizated experience
+  
   ![images](https://github.com/KamKooner/openlecture_frontend/assets/85206896/ce89b834-ca53-4390-b56e-9a2c0e4e74e4)
 
 
