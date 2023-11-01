@@ -1,0 +1,67 @@
+
+/* Apply background color to the nav element */
+nav {
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #2b2d31;
+    color: #fff; 
+    width: 100%; 
+    position: fixed; 
+    top: 0;
+    left: 0;
+    border-bottom: 0.9px solid rgb(26, 26, 26);
+}
+
+/*#313338*/
+.container {
+    max-width: 100%; 
+    width: 100%;
+    margin: 0 auto;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+}
+
+.login {
+    margin-left: auto; /* Push the "Login" link to the right */
+    padding-right: 5%;
+}
+
+li {
+    margin-right: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    font-family: 'Lato', sans-serif;
+}
+a:hover {
+    color: orange
+}
+
+
+/*mobile version */
+@media screen and (max-width: 768px) {
+    .container {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    ul {
+        flex-direction: column;
+    }
+
+    li {
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+    .login {
+        margin-left: 0;
+    }
+}
