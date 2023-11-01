@@ -1,4 +1,11 @@
 # OpenlectureFrontend
+An open source project aiming to integrate 3 things:
+-Obsidian style notetaking
+  A style of notetaking that uses hyperlink traversal, visualized through a network of nodes in a graph
+-Online public & private studying
+  Messaging/Calls platform for studying
+-Atmospheric customization 
+  Public/Private music & image collections for a personalizated experience
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.2.6.
 
