@@ -1,5 +1,6 @@
 
 body {
+    margin-top: 0;
     margin-left: -1px;
     padding: 0;
     height: 100vh; /* 100% viewport height */
@@ -8,5 +9,7 @@ body {
     position: fixed; 
     top: 0;
     left: 0;
+    overflow-y: auto;
+    overflow-x:hidden;
     
 }
