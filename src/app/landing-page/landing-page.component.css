@@ -1,0 +1,38 @@
+.landing{
+    max-height: 100vh;
+}
+.section-1{
+    display:flex;
+    text-decoration: none;
+    color: #fff;
+    font-family: 'Lato', sans-serif;
+}
+.image1-container{
+    max-width: 1280px;
+    height: 720px;
+}
+
+.image1{
+    width: 100%;
+    height: 100%;
+}
+
+.image2-container{
+    width: calc(33.33% - 20px);
+    height:auto;
+    margin-left: calc(55% + 20px);
+    margin-top: calc(5%);
+    text-align: center;
+
+    
+    
+}
+
+.image2{
+    max-width: 100%; /* Adjust to your preferred maximum width */
+    max-height: 100%; /* Adjust to your preferred maximum height */
+    width: auto;
+    height: auto;
+    display: block; /* Ensures proper spacing and alignment */
+    margin: 0 auto; 
+}

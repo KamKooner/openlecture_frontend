@@ -1,34 +1,33 @@
-
 /* Apply background color to the nav element */
 nav {
     padding: 20px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
     background-color: #2b2d31;
     color: #fff; 
     width: 100%; 
-    position: fixed; 
     top: 0;
     left: 0;
     border-bottom: 0.9px solid rgb(26, 26, 26);
 }
 
-/*#313338*/
-.container {
-    max-width: 100%; 
-    width: 100%;
-    margin: 0 auto;
+.list {
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center; /* Vertically center the content */
 }
 
-ul {
+.nav-links {
+
     list-style: none;
     display: flex;
+    justify-content: center;
+    align-items: center; /* Vertically center the content */
+    flex-grow: 1; /* Allow the links to grow and take up available space */
 }
 
 .login {
-    margin-left: auto; /* Push the "Login" link to the right */
-    padding-right: 5%;
+    /* No margin-left:auto; */
+    margin-left: auto; /* Remove the margin-left */
 }
 
 li {
@@ -41,27 +40,37 @@ a {
     font-weight: bold;
     font-family: 'Lato', sans-serif;
 }
+
 a:hover {
-    color: orange
+    color: orange;
 }
 
-
-/*mobile version */
+/* Mobile version */
 @media screen and (max-width: 768px) {
-    .container {
-        flex-direction: column;
-        align-items: flex-start;
-    }
 
-    ul {
+    .nav-links {
         flex-direction: column;
+        flex-grow: 0;
+        justify-content: flex-start;
+        align-items: flex-start;
     }
 
     li {
         margin-right: 0;
         margin-bottom: 10px;
     }
+
     .login {
         margin-left: 0;
     }
+
+    .list {
+        flex-direction: column;
+        align-items: flex-start;
+
+    }
+    ul{
+        list-style: none;
+    }
+
 }
