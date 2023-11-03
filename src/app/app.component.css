@@ -9,7 +9,6 @@ body {
     position: fixed; 
     top: 0;
     left: 0;
-    overflow-y: auto;
-    overflow-x:hidden;
+    
     
 }

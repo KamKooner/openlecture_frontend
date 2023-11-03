@@ -1,12 +1,35 @@
 <div class="landing">
-    <div class="section-1">
+    <div class="section">
         <div class="image1-container">
-            <img src="\assets\image1.jpg" class="image1">
+            <img src="\assets\image1.jpg" class="image1 fade-in" [ngClass]="{'fade-in-active': showImages}">
+            <p class="text1 fade-in" [ngClass]="{'fade-in-active': showImages}">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nec justo sit amet urna eleifend semper. Nulla facilisi. Curabitur hendrerit sapien eu nulla dictum, at pulvinar neque malesuada. Fusce eu volutpat elit.>
+            </p>
+            <p class="text1 fade-in" [ngClass]="{'fade-in-active': showImages}">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nec justo sit amet urna eleifend semper. Nulla facilisi. Curabitur hendrerit sapien eu nulla dictum, at pulvinar neque malesuada. Fusce eu volutpat elit.>
+            </p>
+            
         </div>
-        <p>test</p>
     </div>
-    <div class="image2-container">
-        <img src="\assets\image2.jpg" class="image2">
+
+    <div class="section">
+        <div class="image2-container">
+            <p class="text2 fade-in" [ngClass]="{'fade-in-active': showImages}">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nec justo sit amet urna eleifend Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nec justo sit amet urna eleifend >
+            </p>
+            <p class="text2 fade-in" [ngClass]="{'fade-in-active': showImages}">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nec justo sit amet urna eleifend Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nec justo sit amet urna eleifend>
+                </p>
+            <img src="\assets\image2.jpg" class="image2 fade-in" [ngClass]="{'fade-in-active': showImages}">
+        </div>
     </div>
+
+    <div class="section page-bottom">
+        <div class="image1-container">
+            <img src="\assets\image3.png" class="image1 fade-in" [ngClass]="{'fade-in-active': showImages}">
+            <p class="text2 fade-in" [ngClass]="{'fade-in-active': showImages}">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nec justo sit amet urna eleifend Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nec justo sit amet urna eleifend >
+            </p>
+            <p class="text2 fade-in" [ngClass]="{'fade-in-active': showImages}">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nec justo sit amet urna eleifend Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nec justo sit amet urna eleifend>
+            </p>
+        </div>
+    </div>
+
+
 </div>
 
