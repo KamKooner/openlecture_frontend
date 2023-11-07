@@ -3,20 +3,46 @@
     overflow-y:scroll;
 }
 
+.title{
+    text-align: center;
+    color: #fff;
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+
 .section{
     display:flex;
     text-decoration: none;
     color: #fff;
     font-family: 'Lato', sans-serif;
     font-weight: bold;
+    align-items: center;
+    margin-bottom:5%;
+}
+.text1{
+    margin-right: 10px;
+    margin-left: 10px;
+    line-height: 175%;
+}
+.text2{
+    margin-right: 10px;
+    margin-left: 10px;
+    line-height: 175%;
+    max-width: 60%;
+}
+.text3{
+    margin-right: 10px;
+    margin-left: 30px;
+    line-height: 175%;
 }
 
-
 .image1-container{
+    min-width: 1280px;
     max-width: 1280px;
     height: 720px;
     display: flex;
-    
+    margin-left: 0.5%; 
 }
 
 .image1{
@@ -28,25 +54,27 @@
 .image2-container{
     width: calc(33.33% - 20px);
     height:auto;
-    margin-left: calc(20% + 20px);
-    margin-top: calc(5%);
-    text-align: center;
+    justify-content: center;
     display: flex;
+    margin-left: 1%;
+    padding-left: 0px;
+
 }
 
 .image2{
-    max-width: 100%; /* Adjust to your preferred maximum width */
-    max-height: 100%; /* Adjust to your preferred maximum height */
-    width: auto;
-    height: auto;
-    display: block; /* Ensures proper spacing and alignment */
+    min-width: 100%; 
+    min-height: 100%; 
+
     margin: 0 auto; 
-    margin-left:70%;
+}
+.image3-container{
+    width: 750px;
+    margin-left: 0.5%; 
 }
 
 .fade-in {
     opacity: 0;
-    transition: opacity 1s ease-in-out; /* You can adjust the duration and timing function as needed */
+    transition: opacity 2s ease-in-out;
     
 }
 .fade-in-active {
@@ -56,4 +84,10 @@
     margin-top: 5%;
     margin-bottom: 200px;
 }
+.hov{
+    color: orange;
+}
 
+img {
+    border-radius: 20px 20px 20px 20px;
+  }
